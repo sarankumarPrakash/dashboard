@@ -18,6 +18,8 @@ import FilterListIcon from '@mui/icons-material/FilterList';
 /*----------------------------External Components ----------------------*/
 import PerformanceHome from './PerformanceIndicator/PerformanceHome'
 import ReferralCoverageYellow from './ReferralCoverageYellow/Home';
+import InduvidalVison from './InduvidualVision/Home'
+import TopPerformer from './TopPerformer/Home'
 
 
 
@@ -40,6 +42,14 @@ const Home = () => {
                
               <ReferralCoverageYellow/>
          
+            </div>
+
+            <div className='induvidualvision'>
+            <InduvidalVison/>
+            </div>
+            <div className='induvidualvision'>
+            <p className='text'>Top Performing Units</p>
+            <TopPerformer/>
             </div>
 
 

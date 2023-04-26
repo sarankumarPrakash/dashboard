@@ -1,6 +1,5 @@
 import React from 'react'
-import Box from '@mui/material/Box';
-import Paper from '@mui/material/Paper';
+
 import { Chart } from "react-google-charts";
 
 const ReferralHome = () => {
@@ -25,8 +24,8 @@ const ReferralHome = () => {
 
   const options = {
     title: "Referral Conversion Progress (Overall)",
-    width: 400,
-    height: 300,
+    width: 550,
+    height: 450,
     // bar: { groupWidth: "95%" },
     legend: { position: "none" },
   };
@@ -37,7 +36,7 @@ const ReferralHome = () => {
       <div>
         <Chart
           chartType="BarChart"
-          width="50%"
+          width="90%"
           height="300px"
           data={data}
           options={options}

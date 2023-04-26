@@ -21,21 +21,21 @@ const Home = () => {
             },
           }}
         >
-          <Paper elevation={15}  >
+          
             <div>
               <ReferralHome />
             </div>
-          </Paper>
-          <Paper elevation={15}   >
+         
+         
             <div>
               <CoverageHome />
             </div>
-          </Paper>
-          <Paper elevation={15}   >
+          
+          
             <div>
               <YellowCardHome />
             </div>
-          </Paper>
+        
         </Box>
       </div>
     </div>
